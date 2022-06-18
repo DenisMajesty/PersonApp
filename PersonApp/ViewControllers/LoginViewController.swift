@@ -13,11 +13,6 @@ class LoginViewController: UIViewController, UITabBarDelegate {
     @IBOutlet var passwordTextField: UITextField!
 
     private let person = Person()
-
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let tabBarController = segue.destination as! UITabBarController
